@@ -1,0 +1,57 @@
+
+body {
+    padding: 2px;
+    background-color: lightslategray;
+    width: 100%;
+}
+
+#nav, #nav a, .left, .right {
+    display: inline-block;
+}
+
+#nav {
+    width: 33%;
+    margin-left: 33%;
+    margin-right: 33%;
+    text-align: center;
+}
+
+#nav a {
+    font-size: medium;
+    color: white;
+}
+
+h2 {
+    width: 33%;
+    margin-left: 33%;
+    margin-right: 33%;
+    text-align: center;
+}
+
+.left {
+    width: 25%;
+    margin-left: 20%;
+    background-color: lightslategray;
+    text-align: center;
+}
+
+.left img {
+    margin-top: 10px;
+}
+
+.right {
+    width: 25%;
+    margin-right: 5%;
+    margin-left: 10%;
+    background-color: lightslategray;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.right p {
+    font-family: sans-serif;
+    background-color: lightblue;
+    margin: 80px 0px 80px 0px;
+}
+
+

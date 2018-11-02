@@ -23,6 +23,7 @@ namespace PortfolioI
         {
             if (env.IsDevelopment())
             {
+                app.UseStaticFiles();
                 app.UseDeveloperExceptionPage();
             }
 
